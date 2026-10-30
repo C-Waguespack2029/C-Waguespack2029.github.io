@@ -88,6 +88,7 @@
           else if (positionX <= 0) {
           speed *= -1
           }
+          changeBoxText(points);
         }
       
         /**
@@ -101,7 +102,6 @@
         positionX = 0;
         points++;
         speed = 3 * points + 10;
-        changeBoxText(points);
       }
 
 
