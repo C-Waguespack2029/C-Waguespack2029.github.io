@@ -31,30 +31,30 @@ $(function () {
 
 // toggleGrid()
     // TODO 2 - Create Platforms
-createPlatform(200, 700, 450, 50, "cyan")
-createPlatform(325, 600, 125, 50, "cyan")
-createPlatform(500, 500, 210, 75, "cyan")
-createPlatform(800, 100, 50, 400, "cyan")
-createPlatform(1000, 400, 200, 50, "cyan")
-createPlatform(1200, 650, 450, 50, "cyan")
-createPlatform(900, 575, 200, 50, "cyan")
-createPlatform(850, 450, 50, 50, "cyan")
-createPlatform(500, 300, 100, 50, "cyan", 500, 500, 0, 200, 400, 1)
-createBadPlatform(700, 200, 100, 50, "cyan")
-createBadPlatform(1350, 550, 50, 50, "cyan")
-createBadPlatform(1166, 398, 1, 1, "cyan")
-createPlatform(1200, 450, 75, 50, "cyan")
+createPlatform(200, 700, 450, 50, "cyan");
+createPlatform(325, 600, 125, 50, "cyan");
+createPlatform(500, 500, 210, 75, "cyan");
+createPlatform(800, 100, 50, 400, "cyan");
+createPlatform(1000, 400, 200, 50, "cyan");
+createPlatform(1200, 650, 450, 50, "cyan");
+createPlatform(900, 575, 200, 50, "cyan");
+createPlatform(850, 450, 50, 50, "cyan");
+createPlatform(500, 300, 100, 50, "cyan", 500, 500, 0, 200, 400, 1);
+createBadPlatform(700, 200, 100, 50, "cyan");
+createBadPlatform(1350, 550, 50, 50, "cyan");
+createBadPlatform(1166, 398, 1, 1, "cyan");
+createPlatform(1200, 450, 75, 50, "cyan");
     // TODO 3 - Create Collectables
-createCollectable("database", 1200, 300, 0, 0)
-createCollectable("steve", 600, 350, 0, 1, 100, 800, 25)
-createCollectable("steve", 300, 505, 0, 0, 900, 1200, 25)
-createCollectable("steve", 900, 300, 0, 0, 900, 1200, 20)
+createCollectable("database", 1200, 300, 0, 0);
+createCollectable("steve", 600, 350, 0, 1, 100, 800, 25);
+createCollectable("diamond", 300, 505, 0, 0, 900, 1200, 25);
+createCollectable("grace", 900, 300, 0, 0, 900, 1200, 20);
     
     // TODO 4 - Create Cannons
-createCannon("left", 350, 2050, 20, 5, 0, 700, 1)
-createCannon("bottom", 750, 900, 10, 100)
-createCannon("top", 1100, 1000, 5, 20, 900, 1400, 5)
-createCannon("top", 500, 1500)
+createCannon("left", 350, 2050, 20, 5, 0, 700, 1);
+createCannon("bottom", 750, 900, 10, 100);
+createCannon("top", 1100, 1000, 5, 20, 900, 1400, 5);
+createCannon("top", 500, 1500);
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
     //////////////////////////////////
